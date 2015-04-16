@@ -32,7 +32,7 @@ if (!isset($localConfig) || empty($localConfig)) {
 if (true === file_exists($localConfig)) {
     require_once $localConfig;
 } else {
-    require_once __DIR__ . '/etc/config.php';
+    require_once __DIR__ . '/config.php';
 }
 
 ////////// END OF DEFAULT CONFIG AREA /////////////////////////////////////////////////////////////
